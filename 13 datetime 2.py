@@ -1,10 +1,10 @@
 from datetime import datetime, timedelta   
 
-print ( 'now'   , datetime.now() )
-print ( 'today' , datetime.today() )
-print ( 'year'  , datetime.today().year )
-print ( 'month' , datetime.today().month )
-print ( 'day'   , datetime.today().day )
+print ( 'Now'   , datetime.now() )
+print ( 'Today' , datetime.today() )
+print ( 'Year'  , datetime.today().year )
+print ( 'Month' , datetime.today().month )
+print ( 'Day'   , datetime.today().day )
 
 # date to string
 x     = datetime.today().strftime('%B, %d %Y')
